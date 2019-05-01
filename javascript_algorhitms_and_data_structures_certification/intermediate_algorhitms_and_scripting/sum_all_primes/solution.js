@@ -1,5 +1,5 @@
 function isPrimeNumber(number) {
-    let limit = number >> 1;
+    const limit = number >> 1;
     for (let i = 2; i <= limit; i++) {
         if (number % i === 0) {
             return false;
