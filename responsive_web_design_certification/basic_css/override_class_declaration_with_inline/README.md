@@ -1,0 +1,14 @@
+***Basic CSS: Override Class Declarations with Inline Styles***
+
+So we've proven that id declarations override class declarations, regardless of where they are declared in your style element CSS.
+
+There are other ways that you can override CSS. Do you remember inline styles?
+
+
+Use an inline style to try to make our h1 element white. Remember, in line styles look like this:
+
+```html
+<h1 style="color: green;">
+```
+
+Leave the blue-text and pink-text classes on your h1 element.
